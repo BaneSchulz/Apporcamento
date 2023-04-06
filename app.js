@@ -26,6 +26,7 @@ class Bd {
     }
   }
 
+  
   getProximoId() {
     let proximoId = localStorage.getItem('id') //null
     return parseInt(proximoId) + 1
